@@ -1,7 +1,7 @@
 name: Multi Steps
 on: [push]
 jobs:
-  multi_steps
+  multi_steps:
     run-on: ubuntu-latest
     env:
       GITHUB_REF : ${{ github.ref }}
